@@ -23,7 +23,7 @@ const BarraRicerca = ({ city, setCity, handleSearch }) => {
         className="navbar rounded-3 justify-content-center bg-light m-5"
       >
 
-        <Form className="d-flex mx-3" onSubmit={handleSubmit}>
+        <Form className="d-flex mx-5" onSubmit={handleSubmit}>
           <Form.Control
             type="text"
             placeholder="Inserisci il nome della città"
@@ -32,7 +32,7 @@ const BarraRicerca = ({ city, setCity, handleSearch }) => {
             aria-label="Search"
             className="custom-input"
           />
-          <Button type="submit" variant="outline-info mx-2 rounded-5">
+          <Button type="submit" variant="outline-info mx-1 rounded-5">
             Search
           </Button>
         </Form>
